@@ -1,0 +1,70 @@
+.mtk10 {
+    color: yellow;
+    background-image: linear-gradient(to right, #ff61d2, #fe908f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.mtk5 {
+    color: #50fa7b;
+    background-image: linear-gradient(45deg, #11998f, #38ef7d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+}
+
+.monaco-editor .detected-link, .monaco-editor .detected-link-active {
+    text-decoration: none;
+    text-underline-position: under;
+    border-bottom: 3px dashed #efdf62;
+}
+
+
+
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top>.tab-border-top-container {
+    background-color: var(--tab-border-top-color);
+    height: 5px;
+    top: 0;
+    z-index: 6;
+    border-radius: 10%;
+    background-image: linear-gradient(to right, #11998f, #d13abd, #efbd8a, #11998f);
+    background-size: 200% auto;
+    animation: borderTop 4s linear infinite;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.monaco-progress-container, .monaco-workbench .part>.content>.monaco-progress-container {
+    left: 0;
+    position: absolute;
+    top: 33px;
+    z-index: 5;
+    background-image: linear-gradient(to right, #11998f, #d13abd, #efbd8a, #11998f);
+    background-size: 200% auto;
+    animation: borderTop 4s linear infinite;
+
+}
+.monaco-progress-container.infinite.infinite-long-running .progress-bit {
+    animation-timing-function: steps(100);
+    background-image: linear-gradient(to right, #11998f, #d13abd, #efbd8a, #11998f);
+    background-size: 200% auto;
+    animation: borderTop 4s linear infinite;
+    display: none !important;
+    background-color: transparent !important;
+
+}
+
+.monaco-progress-container .progress-bit {
+    display: none;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    background-color: transparent !important;
+    width: 2%;
+}
+@keyframes borderTop{
+    to{
+        background-position: 200%;
+    }
+}
+
