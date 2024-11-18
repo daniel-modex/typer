@@ -1,1 +1,3 @@
 https://prod.liveshare.vsengsaas.visualstudio.com/join?15141FEAD73D32F7E1D5EB3E439FFA61169F
+key:6LfUuYIqAAAAAEfchVbkCLw36Ca_PWlhKBnCnRMP
+secret key:6LfUuYIqAAAAADxko8QmQi5uqrvGRONxam5Kc6dF
